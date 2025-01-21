@@ -37,11 +37,11 @@ def tfrecord_check(batch):
     # Calculate the mean along the time axis (5000)
     means = tf.reduce_mean(batch, axis=1)  # (None, 12, 1)
     # Determine if the mean contains a 0 (True/False)
-    has_zero = tf.reduce_any(tf.equal(means, 0.0), axis=[1, 2])  # 各データごとに判定
+    has_zero = tf.reduce_any(tf.equal(means, 0.0), axis=[1, 2])  
     # Check if the entire dataset contains NaN values (True/False)
-    has_nan = tf.reduce_any(tf.math.is_nan(batch), axis=[1, 2, 3])  # 各データごとに判定
+    has_nan = tf.reduce_any(tf.math.is_nan(batch), axis=[1, 2, 3]) 
     # Compute the derivative along the time axis (5000)
-    diff = tf.experimental.numpy.diff(batch, axis=1)  # 微分: (None, 4999, 12, 1)
+    diff = tf.experimental.numpy.diff(batch, axis=1) 
     # Calculate the ratio of zeros in the derivative
     diff_zero_ratio = tf.reduce_mean(tf.cast(tf.equal(diff, 0.0), tf.float32), axis=[1, 2, 3])
     # For handling values close to 0, `tf.abs(diff) < epsilon` can be used

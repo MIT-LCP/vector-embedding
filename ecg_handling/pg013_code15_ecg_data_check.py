@@ -38,27 +38,26 @@ tf_dataset = tf.data.TFRecordDataset(code_15_ecg_data_df['tfrecord_path']).map(p
 
 
 def tfrecord_check(batch):
-    # 時間軸 (5000) に沿って平均を計算
+    # Calculate the mean along the time axis (5000)
     means = tf.reduce_mean(batch, axis=1)  # (None, 12, 1)
-    # 平均に 0 が含まれるかを判定 (True/False)
-    has_zero = tf.reduce_any(tf.equal(means, 0.0), axis=[1, 2])  # 各データごとに判定
-    # データ全体に NaN が含まれるかを判定 (True/False)
-    has_nan = tf.reduce_any(tf.math.is_nan(batch), axis=[1, 2, 3])  # 各データごとに判定
-    # 微分値を計算 (時間軸 5000 に沿って)
-    diff = tf.experimental.numpy.diff(batch, axis=1)  # 微分: (None, 4999, 12, 1)
-    # 微分値に 0 が含まれる割合を計算
+    # Determine if the mean contains a 0 (True/False)
+    has_zero = tf.reduce_any(tf.equal(means, 0.0), axis=[1, 2])  
+    # Check if the entire dataset contains NaN values (True/False)
+    has_nan = tf.reduce_any(tf.math.is_nan(batch), axis=[1, 2, 3])  
+    # Compute the derivative along the time axis (5000)
+    diff = tf.experimental.numpy.diff(batch, axis=1)  
+    # Calculate the ratio of zeros in the derivative
     diff_zero_ratio = tf.reduce_mean(tf.cast(tf.equal(diff, 0.0), tf.float32), axis=[1, 2, 3])
-    # 0 に近い値に対応させたい場合は、`tf.abs(diff) < epsilon` を使用可能
-    # True/False を 1/0 に変換
+    # For handling values close to 0, `tf.abs(diff) < epsilon` can be used
+    # Convert True/False to 1/0
     zero_flag = tf.cast(has_zero, tf.int32)
     nan_flag = tf.cast(has_nan, tf.int32)
-    # 結果を結合して返す
-    # 各データごとに [has_zero, has_nan, diff_zero_ratio] を出力
+    # Combine and return the results
+    # Output [has_zero, has_nan, diff_zero_ratio] for each data point
     return tf.concat([tf.cast(zero_flag[:, tf.newaxis], tf.float32),
                       tf.cast(nan_flag[:, tf.newaxis], tf.float32),
                       diff_zero_ratio[:, tf.newaxis]], axis=1)
 
-# データセットに適用
 tfrecord_check_flags = tf_dataset.map(tfrecord_check)
 tfrecord_check_flags = tf.concat(list(tfrecord_check_flags.as_numpy_iterator()), axis=0)
 tfrecord_check_flags_df = pd.DataFrame(tfrecord_check_flags,columns=['zero_frag','nan_frag','diff'])
