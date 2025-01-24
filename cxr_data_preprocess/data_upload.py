@@ -13,8 +13,8 @@ import argparse
 # Argments
 parser = argparse.ArgumentParser(description='This script demonstrates how to use command-line arguments.')
 parser.add_argument('--credential_path', type=str, required=True, help='Physionet Credential json file')
-parser.add_argument('--bucket_name', type=int, required=True, help='s3 bucket for data uploading')
-parser.add_argument('--s3_dir', type=int, required=True, help='s3 dir name for data uploading')
+parser.add_argument('--bucket_name', type=str, required=True, help='s3 bucket for data uploading')
+parser.add_argument('--s3_dir', type=str, required=True, help='s3 dir name for data uploading')
 parser.add_argument('--download_num', type=int, required=False, help='Number for downloding')
 
 args = parser.parse_args()
