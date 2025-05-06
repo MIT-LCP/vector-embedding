@@ -1,5 +1,4 @@
 # this script gets qformer embeddings from CheXagent with shape [N, 1, 128, 768]
-
 # The csv file should contain dicom path and dicom id of the images you want to extract embeddings from
 # To run this script, you need to have the CheXagent-8b model from hugginface downloaded and the path to the model directory
 
