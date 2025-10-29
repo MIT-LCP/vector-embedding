@@ -33,6 +33,23 @@ This repository provides comprehensive pipelines for generating vector embedding
 
 
 
+
+## CXR Model Information
+### CheXagent
+- **Repository**: [https://github.com/Stanford-AIMI/CheXagent](https://github.com/Stanford-AIMI/CheXagent)
+- **Hugging Face**: [https://huggingface.co/StanfordAIMI/CheXagent-2-3b](https://huggingface.co/StanfordAIMI/CheXagent-2-3b)
+
+### EVA-X
+- **Repository**: [https://github.com/hustvl/EVA-X](https://github.com/hustvl/EVA-X)
+- **Hugging Face**: [https://huggingface.co/MapleF/eva_x/tree/main](https://huggingface.co/MapleF/eva_x/tree/main)
+
+### CXR Foundation Model
+- **Documentation**: [https://developers.google.com/health-ai-developer-foundations/cxr-foundation](https://developers.google.com/health-ai-developer-foundations/cxr-foundation)
+- **Repository**: [https://github.com/google-health/cxr-foundation](https://github.com/google-health/cxr-foundation)
+- **Hugging Face**: [https://huggingface.co/google/cxr-foundation](
+https://huggingface.co/google/cxr-foundation)
+
+
 ## ECHO Model Information
 ### EchoPrime
 - **Repository**: [https://github.com/echonet/EchoPrime](https://github.com/echonet/EchoPrime)
@@ -50,6 +67,11 @@ This repository provides comprehensive pipelines for generating vector embedding
 ### ECGFounder
 - **Repository**: [https://github.com/PKUDigitalHealth/ECGFounder](https://github.com/PKUDigitalHealth/ECGFounder)
 - **Hugging Face**: [https://huggingface.co/PKUDigitalHealth/ECGFounder/tree/main](https://huggingface.co/PKUDigitalHealth/ECGFounder/tree/main)
+
+## PPG Model Information
+### PaPaGei
+- **Repository**: [https://github.com/Nokia-Bell-Labs/papagei-foundation-model](https://github.com/Nokia-Bell-Labs/papagei-foundation-model)
+
 
 
 ## Related Publications
