@@ -78,8 +78,8 @@ https://huggingface.co/google/cxr-foundation)
 
 - Johnson, A. E. W., et al. "MIMIC-IV, a freely accessible electronic health record dataset." Scientific Data 10.1 (2023): 1.
 - Goldberger, A. L., et al. "PhysioBank, PhysioToolkit, and PhysioNet: components of a new research resource for complex physiologic signals." Circulation 101.23 (2000): e215-e220.
-
-
+- Tohyama T, et al. Multi-view echocardiographic embedding for accessible AI development. medRxiv. 2025. doi:10.1101/2025.08.15.25333725.
+- Chung DJ, et al. Echocardiogram Vector Embeddings Via R3D Transformer for the Advancement of Automated Echocardiography. JACC Adv 2024;3:101196.
 
 ## License
 
