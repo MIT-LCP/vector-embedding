@@ -69,8 +69,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Organizations
 
 | [<img src="img/physionet-logo.jpg" alt="PhysioNet" width="200"/>](https://physionet.org/) | [<img src="img/mit-critical-data-logo.jpg" alt="MIT Critical Data" width="150"/>](https://criticaldata.mit.edu/)|
-|:---:|:---:|
-| PhysioNet | MIT Critical Data | 
 
 </div>
 
