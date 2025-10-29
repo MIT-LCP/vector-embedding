@@ -1,8 +1,5 @@
 # Vector Embedding Pipelines for MIMIC III/IV Datasets
 
-<div align="center">
-
-
 
 ## Overview
 
