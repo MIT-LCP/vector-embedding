@@ -63,10 +63,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support and Contact
 
-- **Documentation**: [Full documentation](https://github.com/MIT-LCP/vector-embedding/wiki)
 - **Issues**: [GitHub Issues](https://github.com/MIT-LCP/vector-embedding/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/MIT-LCP/vector-embedding/discussions)
-- **Contact**: [MIT-LCP Team](mailto:mimic-support@physionet.org)
 
 ## Organizations
 
