@@ -68,9 +68,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Discussions**: [GitHub Discussions](https://github.com/MIT-LCP/vector-embedding/discussions)
 - **Contact**: [MIT-LCP Team](mailto:mimic-support@physionet.org)
 
-## Partner Organizations
+## Organizations
 
-| [<img src="img/physionet-logo.jpg" alt="PhysioNet" width="200"/>](https://physionet.org/) | [<img src="img/mit-critical-data-logo.jpg" alt="MIT Critical Data" width="150"/>](https://criticaldata.mit.edu/)|
+| [<img src="img/physionet-logo.svg" alt="PhysioNet" width="200"/>](https://physionet.org/) | [<img src="img/mit-critical-data-logo.svg" alt="MIT Critical Data" width="150"/>](https://criticaldata.mit.edu/)|
 |:---:|:---:|
 | PhysioNet | MIT Critical Data | 
 
