@@ -5,7 +5,7 @@
 
 This repository provides comprehensive pipelines for generating vector embeddings from MIMIC III and MIMIC IV datasets, as well as related healthcare datasets. The primary focus is on creating high-quality vector representations that can be used for downstream machine learning tasks in healthcare AI research.
 
-[<img src="img/overview.jpg" alt="Overview" width="600"/>]
+<img src="img/overview.jpg" alt="Overview" width="600"/>
 
 ## Key Features
 
@@ -70,9 +70,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Partner Organizations
 
-| [<img src="https://physionet.org/static/images/physionet-logo.png" alt="PhysioNet" width="200"/>](https://physionet.org/) | [<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/MIT_logo.svg" alt="MIT" width="150"/>](https://www.mit.edu/) | [<img src="https://www.khidi.or.kr/cms/image/layout/lnb_logo.png" alt="KHIDI" width="200"/>](https://www.khidi.or.kr/) |
-|:---:|:---:|:---:|
-| PhysioNet | MIT | KHIDI |
+| [<img src="img/physionet-logo.jpg" alt="PhysioNet" width="200"/>](https://physionet.org/) | [<img src="img/mit-critical-data-logo.jpg" alt="MIT Critical Data" width="150"/>](https://criticaldata.mit.edu/)|
+|:---:|:---:|
+| PhysioNet | MIT Critical Data | 
 
 </div>
 
