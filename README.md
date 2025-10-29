@@ -10,10 +10,7 @@ This repository provides comprehensive pipelines for generating vector embedding
 ## Key Features
 
 - **Multi-dataset Support**: Full compatibility with MIMIC III, MIMIC IV, and related healthcare datasets
-- **State-of-the-art Models**: Integration with advanced embedding models including:
-  - **EchoPrime**: Specialized for echocardiography data
-  - **R3D-Transformer**: 3D ResNet-based transformer for temporal medical data
-  - **PanEcho**: Pan-view echocardiography analysis model
+- **State-of-the-art Models**: Integration with advanced embedding models.
 
 ## Data Access and Setup
 
