@@ -2,17 +2,13 @@
 
 <div align="center">
 
-## Partner Organizations
 
-| [<img src="https://physionet.org/static/images/physionet-logo.png" alt="PhysioNet" width="200"/>](https://physionet.org/) | [<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/MIT_logo.svg" alt="MIT" width="150"/>](https://www.mit.edu/) | [<img src="https://www.khidi.or.kr/cms/image/layout/lnb_logo.png" alt="KHIDI" width="200"/>](https://www.khidi.or.kr/) |
-|:---:|:---:|:---:|
-| PhysioNet | MIT | KHIDI |
-
-</div>
 
 ## Overview
 
 This repository provides comprehensive pipelines for generating vector embeddings from MIMIC III and MIMIC IV datasets, as well as related healthcare datasets. The primary focus is on creating high-quality vector representations that can be used for downstream machine learning tasks in healthcare AI research.
+
+[<img src="img/overview.jpg" alt="Overview" width="600"/>]
 
 ## Key Features
 
@@ -38,71 +34,31 @@ This repository provides comprehensive pipelines for generating vector embedding
      https://physionet.org/files/mimiciv/3.1/
    ```
 
-3. **Configure Data Paths**:
-   ```python
-   # config/data_config.py
-   MIMIC_III_PATH = "/path/to/mimic-iii-clinical-database"
-   MIMIC_IV_PATH = "/path/to/mimic-iv"
-   OUTPUT_PATH = "/path/to/output/embeddings"
-   ```
+
 
 ## Model Information
 
 ### EchoPrime
 - **Repository**: [https://github.com/ouwen/EchoPrime](https://github.com/ouwen/EchoPrime)
 - **Hugging Face**: [https://huggingface.co/echoprime/echoprime-base](https://huggingface.co/echoprime/echoprime-base)
-- **Purpose**: Specialized for echocardiography video analysis and cardiac function assessment
+
 
 ### R3D-Transformer
 - **Repository**: [https://github.com/kenshohara/3D-ResNets-PyTorch](https://github.com/kenshohara/3D-ResNets-PyTorch)
-- **Purpose**: 3D ResNet-based transformer for temporal medical data analysis
+
 
 ### PanEcho
 - **Repository**: [https://github.com/echocardiography/PanEcho](https://github.com/echocardiography/PanEcho)
-- **Purpose**: Pan-view echocardiography analysis with multi-view integration
 
-## Contributing
 
-We welcome contributions to improve the vector embedding pipelines. Please follow these guidelines:
 
-1. **Fork the repository** and create a feature branch
-2. **Write tests** for new functionality
-3. **Follow PEP 8** coding standards
-4. **Update documentation** as needed
-5. **Submit a pull request** with a clear description
-
-### Development Setup
-
-```bash
-# Install development dependencies
-pip install -r requirements-dev.txt
-
-# Run tests
-pytest tests/
-
-# Run linting
-flake8 vector_embedding/
-black vector_embedding/
-```
-
-## Citation
-
-If you use this repository in your research, please cite:
-
-```bibtex
-@misc{mit_lcp_vector_embedding,
-  title={Vector Embedding Pipelines for MIMIC Healthcare Datasets},
-  author={MIT Laboratory for Computational Physiology},
-  year={2024},
-  publisher={GitHub},
-  howpublished={\url{https://github.com/MIT-LCP/vector-embedding}}
-}
-```
 
 ## Related Publications
 
 - Johnson, A. E. W., et al. "MIMIC-IV, a freely accessible electronic health record dataset." Scientific Data 10.1 (2023): 1.
 - Goldberger, A. L., et al. "PhysioBank, PhysioToolkit, and PhysioNet: components of a new research resource for complex physiologic signals." Circulation 101.23 (2000): e215-e220.
+
+
 
 ## License
 
@@ -115,11 +71,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Discussions**: [GitHub Discussions](https://github.com/MIT-LCP/vector-embedding/discussions)
 - **Contact**: [MIT-LCP Team](mailto:mimic-support@physionet.org)
 
-## Acknowledgments
+## Partner Organizations
 
-- **MIT Laboratory for Computational Physiology** for maintaining the MIMIC datasets
-- **PhysioNet** for providing access to healthcare data
-- **Contributors** to the open-source healthcare AI community
+| [<img src="https://physionet.org/static/images/physionet-logo.png" alt="PhysioNet" width="200"/>](https://physionet.org/) | [<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/MIT_logo.svg" alt="MIT" width="150"/>](https://www.mit.edu/) | [<img src="https://www.khidi.or.kr/cms/image/layout/lnb_logo.png" alt="KHIDI" width="200"/>](https://www.khidi.or.kr/) |
+|:---:|:---:|:---:|
+| PhysioNet | MIT | KHIDI |
+
+</div>
+
+## Acknowledgments
 - **Funding**: This research was supported by a grant of the Korea Health Technology R&D Project through the Korea Health Industry Development Institute (KHIDI), funded by the Ministry of Health & Welfare, Republic of Korea (grant number: RS-2024-00439677)
 
 ---
