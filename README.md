@@ -1,4 +1,4 @@
-# Vector Embedding Pipelines for MIMIC III/IV Datasets
+# Vector Embedding Project for Medical Data
 
 
 ## Overview
@@ -33,21 +33,23 @@ This repository provides comprehensive pipelines for generating vector embedding
 
 
 
-## Model Information
-
+## ECHO Model Information
 ### EchoPrime
-- **Repository**: [https://github.com/ouwen/EchoPrime](https://github.com/ouwen/EchoPrime)
-- **Hugging Face**: [https://huggingface.co/echoprime/echoprime-base](https://huggingface.co/echoprime/echoprime-base)
-
-
+- **Repository**: [https://github.com/echonet/EchoPrime](https://github.com/echonet/EchoPrime)
 ### R3D-Transformer
-- **Repository**: [https://github.com/kenshohara/3D-ResNets-PyTorch](https://github.com/kenshohara/3D-ResNets-PyTorch)
-
-
+- **Repository**: [https://github.com/Team-Echo-MIT/r3d-v0-embeddings](https://github.com/Team-Echo-MIT/r3d-v0-embeddings)
 ### PanEcho
-- **Repository**: [https://github.com/echocardiography/PanEcho](https://github.com/echocardiography/PanEcho)
+- **Repository**: [https://github.com/CarDS-Yale/PanEcho](https://github.com/CarDS-Yale/PanEcho)
 
-
+## ECG Model Information
+### HuBERT-ECG
+- **Repository**: [https://github.com/Edoar-do/HuBERT-ECG?tab=readme-ov-file](https://github.com/Edoar-do/HuBERT-ECG?tab=readme-ov-file)
+- **Hugging Face**: [https://huggingface.co/Edoardo-BS](https://huggingface.co/Edoardo-BS)
+### ECGFM-KED
+- **Repository**: [https://github.com/control-spiderman/ECGFM-KED](https://github.com/control-spiderman/ECGFM-KED)
+### ECGFounder
+- **Repository**: [https://github.com/PKUDigitalHealth/ECGFounder](https://github.com/PKUDigitalHealth/ECGFounder)
+- **Hugging Face**: [https://huggingface.co/PKUDigitalHealth/ECGFounder/tree/main](https://huggingface.co/PKUDigitalHealth/ECGFounder/tree/main)
 
 
 ## Related Publications
