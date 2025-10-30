@@ -28,23 +28,36 @@ This repository provides comprehensive pipelines for generating vector embedding
      https://physionet.org/files/mimiciv/3.1/
    ```
 
-
-
-
 ## CXR Model Information
 ### CheXagent
 - **Repository**: [https://github.com/Stanford-AIMI/CheXagent](https://github.com/Stanford-AIMI/CheXagent)
-- **Hugging Face**: [https://huggingface.co/StanfordAIMI/CheXagent-2-3b](https://huggingface.co/StanfordAIMI/CheXagent-2-3b)
+- **Hugging Face**: [https://huggingface.co/StanfordAIMI/CheXagent-8b](https://huggingface.co/StanfordAIMI/CheXagent-8b)
+- **Citation**: Chen, Z., et al. (2023). "CheXagent: Towards a Foundation Model for Chest X-Ray Interpretation" arXiv preprint arXiv:2401.12208
+
+### CheXFound
+- **Repository**: [https://github.com/RPIDIAL/CheXFound](https://github.com/RPIDIAL/CheXFound)
+- **Citation**: Yang, Z., Xu, X., Zhang, J., Wang, G., Kalra, M. K., & Yan, P. (2025). Chest X-ray Foundation Model with Global and Local Representations Integration. ArXiv. https://arxiv.org/abs/2502.05142
 
 ### EVA-X
 - **Repository**: [https://github.com/hustvl/EVA-X](https://github.com/hustvl/EVA-X)
 - **Hugging Face**: [https://huggingface.co/MapleF/eva_x/tree/main](https://huggingface.co/MapleF/eva_x/tree/main)
+- **Citation**: Yao, J., Wang, X., Song, Y., Zhao, H., Ma, J., Chen, Y., Liu, W., & Wang, B. (2024). EVA-X: A foundation model for general chest X-ray analysis with self-supervised learning.
 
-### CXR Foundation Model
+### CXR Foundation Model (ELIXR)
 - **Documentation**: [https://developers.google.com/health-ai-developer-foundations/cxr-foundation](https://developers.google.com/health-ai-developer-foundations/cxr-foundation)
 - **Repository**: [https://github.com/google-health/cxr-foundation](https://github.com/google-health/cxr-foundation)
-- **Hugging Face**: [https://huggingface.co/google/cxr-foundation](
-https://huggingface.co/google/cxr-foundation)
+- **Hugging Face**: [https://huggingface.co/google/cxr-foundation](https://huggingface.co/google/cxr-foundation)
+
+### MedSigLIP
+- **Repository**: [https://github.com/google-health/medsiglip](https://github.com/google-health/medsiglip)
+- **Hugging Face**: [https://huggingface.co/google/medsiglip-448](https://huggingface.co/google/medsiglip-448)
+- **Documentation**: [https://developers.google.com/health-ai-developer-foundations/medsiglip](https://developers.google.com/health-ai-developer-foundations/medsiglip)
+- **Citation**: Google Health AI. (2024). MedSigLIP: Medical image understanding with SigLIP.
+
+### TorchXRayVision
+- **Repository**: [https://github.com/mlmed/torchxrayvision](https://github.com/mlmed/torchxrayvision)
+- **Documentation**: [https://mlmed.org/torchxrayvision/](https://mlmed.org/torchxrayvision/)
+- **Citation**: Cohen, J. P., Viviano, J. D., Bertin, P., Morrison, P., Torabian, P., Guarrera, M., Lungren, M. P., Chaudhari, A., Brooks, R., Hashir, M., & Bertrand, H. (2022). TorchXRayVision: A library of chest X-ray datasets and models. Proceedings of Machine Learning for Health, 172, 231-249.
 
 
 ## ECHO Model Information
