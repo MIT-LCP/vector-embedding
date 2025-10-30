@@ -1,0 +1,36 @@
+name: chexfound
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch=2.0.*  # Mac build (CPU/MPS)
+  - torchvision
+  - torchaudio
+  - numpy
+  - pandas
+  - scikit-learn
+  - pillow
+  - pyyaml
+  - tqdm
+  - matplotlib
+  - pydantic
+  - opencv
+  - pip
+  - pip:
+      - timm
+      - transformers
+      - einops
+      - pydicom
+
+
+
+# Official environment from CheXFound repository
+# Source: https://github.com/RPIDIAL/CheXFound
+
+# Installation:
+# conda env create -f environment.yml
+# conda activate chexfound
+#
+# Note: This version made modifications to the conda-extras.yaml in the official repository
+# to adapt to mac environment. 

@@ -1,0 +1,20 @@
+# Google CXR Foundation Model (ELIXR) Requirements
+# Minimal dependencies for running the embedding extraction script
+
+# TensorFlow (with version compatibility)
+tensorflow>=2.13.0,<2.16.0
+tensorflow-text>=2.13.0,<2.16.0  # Must match tensorflow version
+
+# Data processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Medical imaging
+pydicom>=2.3.0
+pypng>=0.20220715.0
+
+# Utilities
+tqdm>=4.65.0
+
+# Model download
+huggingface-hub>=0.20.0

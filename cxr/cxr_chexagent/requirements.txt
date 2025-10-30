@@ -1,0 +1,21 @@
+# Core ML/DL frameworks
+torch>=2.7.0
+transformers>=4.51.0
+
+# Image processing
+pydicom>=3.0.0
+pillow>=11.0.0
+
+# Numerical and data handling
+numpy>=2.2.0
+pandas>=2.2.0
+einops>=0.8.0
+
+# Utilities
+tqdm>=4.67.0
+huggingface-hub>=0.30.0
+
+# Jupyter (optional, for interactive testing)
+ipykernel>=6.29.0
+ipython>=9.2.0
+matplotlib>=3.10.0
