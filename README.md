@@ -95,6 +95,12 @@ This repository provides comprehensive pipelines for generating vector embedding
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Embedding Library Availability
+- Embedding of the MIMIC chest-x-ray, echo, ecg will be made
+available on physionet. 
+- Due to process time, this is currently temporarily available at 
+https://drive.google.com/drive/folders/18pOkTlu-LguUZp3TLKqZSjSBky-alhja?usp=sharing
+
 ## Support and Contact
 
 - **Issues**: [GitHub Issues](https://github.com/MIT-LCP/vector-embedding/issues)
